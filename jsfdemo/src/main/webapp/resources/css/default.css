@@ -1,0 +1,57 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   color: #222;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.heading {
+	background: #efefef;
+	font-size: 34px;
+	font-family: Georgia;
+	text-align: center;
+	padding: 25px 0;
+	box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+a {
+	color: #444;
+	text-transform: lowercase;
+	padding: 4px;
+}
+.menu {
+	float: left;
+	width: 200px;
+	margin: 0 10px;
+	border-right: 1px solid #ccc;
+}
+.menu a {
+	text-decoration: none;
+	display: block;
+	margin: 0 0 1px 0;
+	background: #FCFCFC;
+}
+.menu a:hover {
+	background: #ccc;
+	color: #000;
+}
+
+.content {
+	margin: 15px 0 0 270px;
+}
+
+td {
+	padding: 3px;
+	border: 1px solid #ddd;
+}
